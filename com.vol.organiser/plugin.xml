@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="BusinessManagerEP" name="BusinessManager" schema="schema/BusinessManagerEP.exsd"/>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.vol.organiser.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="com.vol.organiser.Perspective"
+         name="Perspective"
+         point="org.eclipse.ui.perspectives">
+      <perspective
+<<<<<<< HEAD
+<<<<<<< HEAD
+            class="com.vol.organiser.Perspective"
+            icon="icons/alt_window_32.gif"
+            id="com.vol.organiser.perspective"
+            name="Core Perspective">
+=======
+            name="RCP Perspective"
+            class="com.vol.organiser.Perspective"
+            id="com.vol.organiser.perspective">
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+            class="com.vol.organiser.Perspective"
+            icon="icons/alt_window_32.gif"
+            id="com.vol.organiser.perspective"
+            name="Core Perspective">
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+      </perspective>
+   </extension>
+   <extension
+         id="Organiser"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.vol.organiser.application"
+            name="Organiser">
+         <property
+               name="appName"
+               value="Organiser">
+         </property>
+      </product>
+   </extension>
+
+
+</plugin>

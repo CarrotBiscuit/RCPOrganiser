@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.vol.organiser.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.vol.organiser.ui.Activator
+Bundle-Vendor: VOL
+Require-Bundle: org.eclipse.ui;bundle-version="3.6.2",
+ org.eclipse.core.runtime,
+ com.vol.organiser.business;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

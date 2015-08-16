@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.vol.organiser.business.BusinessEP">
+      <business
+            class="com.vol.organiser.calendar.BusinessCalendar">
+      </business>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="com.vol.organiser.calendar.calendarCommand"
+            name="Calendar Command">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.vol.organiser.calendar.command.CalendarCommandHandler"
+            commandId="com.vol.organiser.calendar.calendarCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="com.vol.organiser.calendar.calendarCommand"
+            icon="icons/Mushroom.png">
+      </image>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="com.vol.organiser.calendarmenu"
+               label="Calendar Menu">
+            <command
+                  commandId="com.vol.organiser.calendar.calendarCommand"
+                  id="com.vol.organiser.calendar.CalendarCommandInMenu"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.vol.organiser.calendar.toolbarmenu">
+            <command
+                  commandId="com.vol.organiser.calendar.calendarCommand"
+                  icon="icons/Mushroom.png"
+                  label="Calendar Tool button"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.vol.organiser.calendar.CalendarView"
+            id="com.vol.organiser.calendar.calendarview"
+            name="Calendar View"
+            restorable="true">
+      </view>
+      <view
+            class="com.vol.organiser.calendar.CornerView"
+            id="com.vol.organiser.calendar.view.cornerView"
+            name="Corner View"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="com.vol.organiser.perspective">
+         <view
+               id="com.vol.organiser.calendar.view.cornerView"
+               minimized="false"
+               ratio="0.20"
+               relationship="left"
+               relative="com.vol.organiser.background.view.BackgroundView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>

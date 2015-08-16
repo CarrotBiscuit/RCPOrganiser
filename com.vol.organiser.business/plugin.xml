@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="BusinessEP" name="BusinessExtensionPoint" schema="schema/BusinessEP.exsd"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+   <extension-point id="com.vol.organiser.business.WindowEP" name="WindowEP" schema="schema/com.vol.organiser.business.WindowEP.exsd"/>
+=======
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+   <extension-point id="com.vol.organiser.business.WindowEP" name="WindowEP" schema="schema/com.vol.organiser.business.WindowEP.exsd"/>
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+   <extension
+         id="com.vol.organiser.business"
+         name="Business Manager"
+         point="com.vol.organiser.BusinessManagerEP">
+      <BusinessManagerEP
+            class="com.vol.organiser.business.BusinessManager">
+      </BusinessManagerEP>
+   </extension>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   <extension
+         id="Organiser"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.vol.organiser.application"
+            name="Organiser">
+      </product>
+   </extension>
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+
+</plugin>

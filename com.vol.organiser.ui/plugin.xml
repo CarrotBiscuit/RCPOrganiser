@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.vol.organiser.ui.frame.BaseMainFrame"
+            id="com.vol.organiser.ui.frame.BaseMainFrame"
+            name="BaseMainFrame"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="com.vol.organiser.business.BusinessEP">
+      <business
+            class="com.vol.organiser.ui.UIBusinessTest">
+      </business>
+   </extension>
+
+</plugin>

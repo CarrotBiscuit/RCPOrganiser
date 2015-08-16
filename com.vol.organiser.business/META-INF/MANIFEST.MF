@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Business
+Bundle-SymbolicName: com.vol.organiser.business;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.vol.organiser.business.Activator
+Bundle-Vendor: VOL
+<<<<<<< HEAD
+<<<<<<< HEAD
+Require-Bundle: org.eclipse.ui;bundle-version="3.6.2",
+ org.eclipse.core.runtime;bundle-version="3.6.0",
+ com.vol.organiser;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.vol.organiser.business,
+ com.vol.organiser.business.window
+=======
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.6.0",
+ com.vol.organiser;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.vol.organiser.business
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+Require-Bundle: org.eclipse.ui;bundle-version="3.6.2",
+ org.eclipse.core.runtime;bundle-version="3.6.0",
+ com.vol.organiser;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.vol.organiser.business,
+ com.vol.organiser.business.window
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+Bundle-ActivationPolicy: lazy
