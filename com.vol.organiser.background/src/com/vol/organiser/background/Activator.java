@@ -2,9 +2,18 @@ package com.vol.organiser.background;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 import java.net.URL;
 
 import org.eclipse.core.runtime.Platform;
+=======
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+import java.net.URL;
+
+import org.eclipse.core.runtime.Platform;
+>>>>>>> 87ec274... Added some UI elements.  Very messy.
 =======
 >>>>>>> a11ad8e... Initial commit.  Basic application still.
 =======

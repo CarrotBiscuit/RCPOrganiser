@@ -19,10 +19,23 @@
       <perspective
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             class="com.vol.organiser.Perspective"
             icon="icons/alt_window_32.gif"
             id="com.vol.organiser.perspective"
             name="Core Perspective">
+=======
+            name="RCP Perspective"
+            class="com.vol.organiser.Perspective"
+            id="com.vol.organiser.perspective">
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+            class="com.vol.organiser.Perspective"
+            icon="icons/alt_window_32.gif"
+            id="com.vol.organiser.perspective"
+            name="Core Perspective">
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
 =======
             name="RCP Perspective"
             class="com.vol.organiser.Perspective"

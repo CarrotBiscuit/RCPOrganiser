@@ -6,6 +6,14 @@ import org.eclipse.ui.application.WorkbenchWindowAdvisor;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import com.vol.organiser.controller.BusinessSetup;
+
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
 =======
 import com.vol.organiser.controller.BusinessSetup;
 
@@ -18,11 +26,15 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	public ApplicationWorkbenchAdvisor()
 	{
 		super();
 		BusinessHandle.getBusinessManager().connectToBusinesses();
 =======
+=======
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
 	BusinessSetup businessSetup;
 	
 	public ApplicationWorkbenchAdvisor()
@@ -31,6 +43,15 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 		businessSetup = new BusinessSetup();
 		businessSetup.setup();
 		
+<<<<<<< HEAD
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+	public ApplicationWorkbenchAdvisor()
+	{
+		super();
+		BusinessHandle.getBusinessManager().connectToBusinesses();
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+=======
 >>>>>>> a11ad8e... Initial commit.  Basic application still.
 =======
 	public ApplicationWorkbenchAdvisor()

@@ -29,7 +29,11 @@
    <extension
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
          id="Organiser"
          point="org.eclipse.core.runtime.products">
       <product
@@ -40,6 +44,11 @@
    <extension
          id="com.vol.organiser.business.background"
          name="Background Business"
+<<<<<<< HEAD
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+=======
 >>>>>>> a11ad8e... Initial commit.  Basic application still.
 =======
 >>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
@@ -50,7 +59,17 @@
    </extension>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
    <extension
+=======
+   <extension
+<<<<<<< HEAD
+         id="BackgroundView"
+         name="Background view"
+>>>>>>> 87ec274... Added some UI elements.  Very messy.
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
 =======
    <extension
 <<<<<<< HEAD
@@ -69,6 +88,10 @@
       </view>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
 =======
 >>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
       <view
@@ -87,6 +110,7 @@
             id="com.vol.organiser.background.perspective.Perspective"
             name="Secondry Perspective">
       </perspective>
+<<<<<<< HEAD
 <<<<<<< HEAD
    </extension>
    <extension
@@ -145,6 +169,72 @@
          </toolbar>
       </menuContribution>
    </extension>
+=======
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
+   </extension>
+<<<<<<< HEAD
+>>>>>>> 87ec274... Added some UI elements.  Very messy.
+=======
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="com.vol.organiser.background.commands.category"
+            name="Sample Category">
+      </category>
+      <command
+            categoryId="com.vol.organiser.background.commands.category"
+            id="com.vol.organiser.background.commands.sampleCommand"
+            name="Sample Command">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.vol.organiser.background.handlers.SampleHandler"
+            commandId="com.vol.organiser.background.commands.sampleCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.vol.organiser.background.commands.sampleCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+6">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="com.vol.organiser.background.menus.sampleMenu"
+               label="Sample Menu"
+               mnemonic="M">
+            <command
+                  commandId="com.vol.organiser.background.commands.sampleCommand"
+                  id="com.vol.organiser.background.menus.sampleCommand"
+                  mnemonic="S">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.vol.organiser.background.toolbars.sampleToolbar">
+            <command
+                  commandId="com.vol.organiser.background.commands.sampleCommand"
+                  icon="icons/sample.gif"
+                  id="com.vol.organiser.background.toolbars.sampleCommand"
+                  tooltip="Say hello world">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+>>>>>>> a9deb43... Added more views.
 =======
 >>>>>>> a11ad8e... Initial commit.  Basic application still.
 =======

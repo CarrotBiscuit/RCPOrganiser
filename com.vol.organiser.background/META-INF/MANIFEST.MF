@@ -9,6 +9,13 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ com.vol.organiser;bundle-version="1.0.0",
+>>>>>>> a11ad8e... Initial commit.  Basic application still.
+=======
+>>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
 =======
  com.vol.organiser;bundle-version="1.0.0",
 >>>>>>> a11ad8e... Initial commit.  Basic application still.
