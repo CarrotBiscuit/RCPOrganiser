@@ -28,21 +28,7 @@
       <plugin id="com.vol.organiser"/>
       <plugin id="com.vol.organiser.background"/>
       <plugin id="com.vol.organiser.business"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <plugin id="com.vol.organiser.calendar"/>
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-      <plugin id="com.vol.organiser.calendar"/>
->>>>>>> a9deb43... Added more views.
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-      <plugin id="com.vol.organiser.calendar"/>
->>>>>>> a9deb43... Added more views.
       <plugin id="javax.servlet"/>
       <plugin id="org.eclipse.ant.core"/>
       <plugin id="org.eclipse.core.commands"/>

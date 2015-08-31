@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
@@ -27,13 +26,6 @@
       </actionSet>
    </extension>
    <extension
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
          id="Organiser"
          point="org.eclipse.core.runtime.products">
       <product
@@ -44,40 +36,14 @@
    <extension
          id="com.vol.organiser.business.background"
          name="Background Business"
-<<<<<<< HEAD
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
          point="com.vol.organiser.business.BusinessEP">
       <business
             class="com.vol.organiser.background.BusinessBackground">
       </business>
    </extension>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
    <extension
-=======
-   <extension
-<<<<<<< HEAD
          id="BackgroundView"
          name="Background view"
->>>>>>> 87ec274... Added some UI elements.  Very messy.
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-=======
-   <extension
-<<<<<<< HEAD
-         id="BackgroundView"
-         name="Background view"
->>>>>>> 87ec274... Added some UI elements.  Very messy.
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
          point="org.eclipse.ui.views">
       <view
             class="com.vol.organiser.background.view.BackgroundView"
@@ -86,14 +52,6 @@
             name="Background view"
             restorable="true">
       </view>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
       <view
             class="com.vol.organiser.background.view.CardView"
             icon="icons/cardback.jpg"
@@ -110,8 +68,6 @@
             id="com.vol.organiser.background.perspective.Perspective"
             name="Secondry Perspective">
       </perspective>
-<<<<<<< HEAD
-<<<<<<< HEAD
    </extension>
    <extension
          point="org.eclipse.ui.commands">
@@ -169,15 +125,6 @@
          </toolbar>
       </menuContribution>
    </extension>
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-   </extension>
-<<<<<<< HEAD
->>>>>>> 87ec274... Added some UI elements.  Very messy.
-=======
    <extension
          point="org.eclipse.ui.commands">
       <category
@@ -234,16 +181,6 @@
          </toolbar>
       </menuContribution>
    </extension>
->>>>>>> a9deb43... Added more views.
-=======
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-=======
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-   </extension>
-<<<<<<< HEAD
->>>>>>> 87ec274... Added some UI elements.  Very messy.
-=======
    <extension
          point="org.eclipse.ui.commands">
       <category
@@ -300,6 +237,4 @@
          </toolbar>
       </menuContribution>
    </extension>
->>>>>>> a9deb43... Added more views.
-
 </plugin>

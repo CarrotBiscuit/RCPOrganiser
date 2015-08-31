@@ -3,23 +3,7 @@
 <schema targetNamespace="com.vol.organiser.business" xmlns="http://www.w3.org/2001/XMLSchema">
 <annotation>
       <appinfo>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
          <meta.schema plugin="com.vol.organiser.business" id="com.vol.organiser.business.BusinessEP" name="BusinessEP"/>
-=======
-         <meta.schema plugin="com.vol.organiser.business" id="BusinessEP" name="BusinessExtensionPoint"/>
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-         <meta.schema plugin="com.vol.organiser.business" id="com.vol.organiser.business.BusinessEP" name="BusinessEP"/>
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
-=======
-         <meta.schema plugin="com.vol.organiser.business" id="BusinessEP" name="BusinessExtensionPoint"/>
->>>>>>> a11ad8e... Initial commit.  Basic application still.
-=======
-         <meta.schema plugin="com.vol.organiser.business" id="com.vol.organiser.business.BusinessEP" name="BusinessEP"/>
->>>>>>> 9eb1e3d... General streamlining of business classes.  Two views and perspectives
       </appinfo>
       <documentation>
          [Enter description of this extension point.]
