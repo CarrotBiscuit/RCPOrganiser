@@ -43,15 +43,15 @@ public final class BusinessManager implements IBusinessManager{
 		 elements = Platform.getExtensionRegistry()
 		.getConfigurationElementsFor(NAMESPACE_ID, BUSINESS_EP_NAME);
 		
-		for (IConfigurationElement ele: elements)
-		{
-			try {
-				businesses.add((IOrganiserBusiness) ele.createExecutableExtension("class"));
-			} catch (CoreException e1) {
-				System.out.println("Error connecting to businesses.  Business name = " + ele.getNamespaceIdentifier());
-				e1.printStackTrace();
-			}
-		}
+//		for (IConfigurationElement ele: elements)
+//		{
+//			try {
+//				//businesses.add((IOrganiserBusiness) ele.createExecutableExtension("class"));
+//			} catch (CoreException e1) {
+//				System.out.println("Error connecting to businesses.  Business name = " + ele.getNamespaceIdentifier());
+//				e1.printStackTrace();
+//			}
+//		}
 		elements = null;
 		
 		/**
